@@ -1,6 +1,7 @@
 class Genre
   attr_accessor :artists, :songs
-  def initialize
 
+  def initialize
+    
   end
 end
