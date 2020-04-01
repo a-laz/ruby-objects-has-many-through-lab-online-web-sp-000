@@ -18,4 +18,12 @@ class Doctor
   def new_appointment(patient, date)
     appointment = Appointment.new(self, patient, date)
   end
+
+  def appointments
+    Appointment.all.each do |appointment|
+      appointment.doctor == self
+    end
+  end
+
+  
 end
