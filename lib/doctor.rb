@@ -1,3 +1,3 @@
 class Doctor
-  
+
 end
