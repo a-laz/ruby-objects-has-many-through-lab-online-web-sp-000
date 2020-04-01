@@ -21,7 +21,7 @@ class Patient
 
   def appointments
     Appointment.all.each do |appointment|
-      appointment.patient.name == self.name
+      appointment.patient == self
     end
   end
 
